@@ -1,0 +1,43 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+ul li {
+    list-style: none;
+}
+ul li a {
+    text-decoration: none;
+    display: block;
+    text-transform: uppercase;
+    height: 100%;
+    padding: 20px;
+}
+
+.active {
+    background-color: rgb(225, 225, 221);
+}
+ul li a:hover:not(.active) {
+    background-color: beige;
+    cursor: pointer;
+}
+
+.contenedor {
+    margin-left: 30%;
+    width: 70%;
+    height: 100%;
+    overflow: hidden;
+}
+
+h1, h2, p {
+    padding: 10px 20px;    
+    text-align: justify;
+}
